@@ -8,12 +8,16 @@
 </head>
 <body>
   <h1>🎲 Random Number Generator</h1>
-  <p>Enter range:</p>
-  <input type="number" id="min" value="1"> to 
-  <input type="number" id="max" value="100">
-  <br>
-  <button onclick="generate()">Generate</button>
-  <p id="number">--</p>
+
+  <!-- First Generator -->
+  <h2>00 - 99</h2>
+  <button onclick="generateTwoDigit()">Generate</button>
+  <p id="twoDigit">--</p>
+
+  <!-- Second Generator -->
+  <h2>000 - 999</h2>
+  <button onclick="generateThreeDigit()">Generate</button>
+  <p id="threeDigit">--</p>
 
   <script src="script.js"></script>
 </body>
